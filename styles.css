@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 140px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#result, #notice{
+    margin-top: 20px;
+    color: red;
+    font-size: 25px;
+}
